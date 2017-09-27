@@ -6,26 +6,31 @@
 .about h1, .dyno-info h1 {
 	color: #ee1b24;
 	font-size: 42pt;
+	margin-top: 3.5rem;
 }
 
 .about p {
-	padding-left: 8rem;
-	padding-right: 8rem;
 	font-size: 18pt;
+	margin-top: 1.5rem;
 }
 
-.flex-container {
+
+
+/*.flex-container {
 	display: -webkit-flex;
     display: flex;
     -webkit-justify-content: center;
     justify-content: center;
     width: 100%;
     background-color: lightgrey;
-    margin-top: 37.520px;
+    margin-top: 3.5rem;
+}*/
+
+.shop-images {
+	margin-top: 3.5rem;
 }
 
 .flex-item {
-	height: 300px;
-	width: 450px;
-	margin: 12px;
+	height: 350px;
+	width: 500px;
 }

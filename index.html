@@ -12,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
 	<link rel="stylesheet" type="text/css" href="css/about.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 </head>
 
@@ -21,7 +22,7 @@
 
 		<div class="header container-fluid">
 
-			<img class="logo" src="images/header_logo.png">
+			<img class="logo img-fluid" src="images/header_logo.png">
 
 			<ul class="social">
 
@@ -46,45 +47,68 @@
 			<ul class="navigation">
 
 				<li>
-					About
+					<a ng-click="gotoElement('about')">About</a>
 				</li>
 
 				<li>
-					Dyno
+					<a ng-click="gotoElemtent('dyno')">Dyno</a>
 				</li>
 
 				<li>
-					Events
+					<a ng-click="gotoElemtent('events')">Events</a>
 				</li>
 
 				<li>
-					Contact
+					<a ng-click="gotoElemtent('contact')">Contact</a>
 				</li>
 
 			</ul>
 
 		</div>
 
-		<div class="burnout-image"></div>
+		<div class="burnout-image container-fluid"></div>
 
-		<div class="about">
+		<div class="about container-fluid">
 
 			<h1>About Us</h1>
 
-			<p>National Speed is headquartered in Wilmington, North Carolina and operates state-of-the-art performance shops. We’re venture backed, and will be setting the standard for the modern performance shop as we roll out additional locations in the coming years.</p>
+			<div class="row justify-content-center">
 
-			<p>Simply put, we make cars go faster and perform better. And we live the lifestyle. We race—drag, road course, and autocross. And we host events that draw hundreds of people. Most importantly though we’re fanatical about making sure our customers’ experience and cars are better than they expect.</p>
+				<div class="col-lg-10 text-center">
 
-			<p>We are committed to Driving Confidence</p>
+					<p>National Speed is headquartered in Wilmington, North Carolina and operates state-of-the-art performance shops. We’re venture backed, and will be setting the standard for the modern performance shop as we roll out additional locations in the coming years.</p>
 
-			<div class="shop-images flex-container">
+					<p>Simply put, we make cars go faster and perform better. And we live the lifestyle. We race—drag, road course, and autocross. And we host events that draw hundreds of people. Most importantly though we’re fanatical about making sure our customers’ experience and cars are better than they expect.</p>
 
-				<img class="flex-item img-fluid" src="images/projects.jpg">
+					<p>We are committed to Driving Confidence</p>
 
-				<img class="flex-item img-fluid" src="images/lineup.jpg">
+				</div>
 
-				<img class="flex-item img-fluid" src="images/dynogtr.jpg">
+			</div>
 
+			<div class="shop-images container-fluid">
+
+				<div class="row justify-content-center">
+
+					<div class="col-lg-4 col-md-4">
+
+						<img class="flex-item img-fluid" src="images/projects.jpg">
+
+					</div>
+
+					<div class="col-lg-4 col-md-4">
+
+						<img class="flex-item img-fluid" src="images/lineup.jpg">
+
+					</div>
+
+					<div class="col-lg-4 col-md-4">
+
+						<img class="flex-item img-fluid" src="images/dynogtr.jpg">
+
+					</div>
+
+				</div>
 			</div>
 
 		</div>
