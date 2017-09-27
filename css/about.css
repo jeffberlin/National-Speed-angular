@@ -3,7 +3,7 @@
 	letter-spacing: .75px;
 }
 
-.about h1 {
+.about h1, .dyno-info h1 {
 	color: #ee1b24;
 	font-size: 42pt;
 }
@@ -12,4 +12,8 @@
 	padding-left: 8rem;
 	padding-right: 8rem;
 	font-size: 18pt;
+}
+
+.shop-images img {
+	height: 300px;
 }
