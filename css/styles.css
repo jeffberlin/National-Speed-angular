@@ -1,4 +1,16 @@
+html, body {
+	font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+}
+
 ul {
 	padding-left: 0px;
 	margin: 0px;
+}
+
+.burnout-image {
+	background-image: url('../images/burnout2.jpg');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	height: 95vh;
 }

@@ -1,0 +1,15 @@
+.about {
+	text-align: center;
+	letter-spacing: .75px;
+}
+
+.about h1 {
+	color: #ee1b24;
+	font-size: 42pt;
+}
+
+.about p {
+	padding-left: 8rem;
+	padding-right: 8rem;
+	font-size: 18pt;
+}

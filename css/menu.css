@@ -17,11 +17,3 @@
 	border-left: 1px solid #ee1b24;
 	border-right: 1px solid #ee1b24;
 }
-
-.burnout-image {
-	background-image: url('../images/burnout2.jpg');
-	background-repeat: no-repeat;
-	background-position: top;
-	background-size: cover;
-	height: 95vh;
-}

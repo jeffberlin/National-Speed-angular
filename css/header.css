@@ -3,12 +3,11 @@
 	margin-top: 1.5rem;
 }
 
-.header img {
-	margin-bottom: .5rem;
-}
-
 .social {
 	list-style: none;
+	height: 56px;
+	margin-top: .5rem;
+	margin-bottom: .5rem;
 }
 
 .social li {
@@ -18,6 +17,7 @@
 
 .social li img {
 	height: 40px;
+	vertical-align: middle;
 }
 
 .social li img:hover {
