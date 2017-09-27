@@ -14,6 +14,18 @@
 	font-size: 18pt;
 }
 
-.shop-images img {
+.flex-container {
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 100%;
+    background-color: lightgrey;
+    margin-top: 37.520px;
+}
+
+.flex-item {
 	height: 300px;
+	width: 450px;
+	margin: 12px;
 }

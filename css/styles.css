@@ -1,5 +1,7 @@
 html, body {
 	font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+	width: 100%;
+	overflow-x: hidden;
 }
 
 ul {
@@ -12,5 +14,5 @@ ul {
 	background-repeat: no-repeat;
 	background-position: top;
 	background-size: cover;
-	height: 95vh;
+	height: 100vh;
 }
