@@ -1,0 +1,27 @@
+.header {
+	text-align: center;
+	margin-top: 1.5rem;
+}
+
+.header img {
+	margin-bottom: .5rem;
+}
+
+.social {
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px;
+}
+
+.social li {
+	display: inline-block;
+	padding: .5rem;
+}
+
+.social li img {
+	height: 40px;
+}
+
+.social li img:hover {
+	cursor: pointer;
+}
