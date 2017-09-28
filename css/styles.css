@@ -24,3 +24,9 @@ p {
 	background-size: cover;
 	height: 100vh;
 }
+
+#map {
+	height: 300px;
+	width: 500px;
+	margin-bottom: 2rem;
+}

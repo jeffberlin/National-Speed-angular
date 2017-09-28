@@ -1,17 +1,17 @@
 /* About, Dyno sections */
 
-.about, .dyno-info, .events {
+.about, .dyno-info, .events, .contact {
 	text-align: center;
 	letter-spacing: .75px;
 }
 
-.about h1, .dyno-info h1, .events h1 {
+.about h1, .dyno-info h1, .events h1, .contact h1 {
 	color: #ee1b24;
 	font-size: 42pt;
 	padding-top: 3.5rem;
 }
 
-.about p, .dyno-info p {
+.about p, .dyno-info p, .events p {
 	font-size: 18pt;
 	margin-top: 2rem;
 }
@@ -27,4 +27,16 @@ strong:hover {
 .flex-item {
 	height: 350px;
 	width: 518px;
+}
+
+.phone img {
+	height: 40px;
+}
+
+.phone {
+	list-style: none;
+}
+
+.phone li {
+	display: inline-block;
 }
