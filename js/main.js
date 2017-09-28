@@ -29,7 +29,7 @@ function initMap() {
 		mapTypeId: 'hybrid'
 	});
 	
-	var contentString = '<div>' + '<h5>National Speed</h5>' + '</div>'; 
+	var contentString = '<div>' + '<h5>National Speed</h5>' + '</div>' + '<a href="#">Get Directions</a>'; 
 
 	var infowindow = new google.maps.InfoWindow({
     	content: contentString
@@ -45,4 +45,8 @@ function initMap() {
 	marker.addListener('click', function() {
 		infowindow.open(map, marker);
 	});
+
+	google.maps.event.addDomListener(window, 'resize', function() {
+      map.fitBounds(bounds);
+    });
 }
