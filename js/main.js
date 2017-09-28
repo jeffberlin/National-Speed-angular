@@ -11,4 +11,8 @@ var app = angular.module('myApp', [])
            $scope.OpenYoutubeTab = function () {
            		$window.open("https://www.youtube.com/channel/UCaMdP7NP5nnoMyokjMd089Q/");
            }
+
+           $scope.OpenDynojetTab = function () {
+           		$window.open("http://www.dynojet.com/");
+           }
        })
