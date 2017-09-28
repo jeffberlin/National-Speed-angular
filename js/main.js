@@ -46,6 +46,8 @@ function initMap() {
 		infowindow.open(map, marker);
 	});
 
+	bounds = new google.maps.LatLngBounds();
+
 	google.maps.event.addDomListener(window, 'resize', function() {
       map.fitBounds(bounds);
     });
