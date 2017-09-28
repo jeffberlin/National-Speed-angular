@@ -12,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
 	<link rel="stylesheet" type="text/css" href="css/about.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 </head>
@@ -205,27 +206,59 @@
 
 			<h1>Contact Us</h1>
 
-			<div class="row justify-content-center">
+			<div class="info row justify-content-center">
 
-				<div class="phone">
+				<div class="contact-form col-lg-4">
 
-					<ul>
-						<li>
-							<img src="images/phone_image.png">
-						</li>
+					<div class="form-group">
+						
+						<label for="custName">Name:</label>
+						
+						<input type="name" placeholder="Name">
+					
+					</div>
 
-						<li>
-							<h4>910-332-5901</h4>
-						</li>
+					<div class="form-group">
+					
+						<label for="email">Email:</label>
+					
+						<input type="email" placeholder="example@email.com">
 
-					</ul>
+					</div>
+
+					<div class="form-group">
+
+						<label for="custPhone">Phone:</label>
+
+						<input type="phone" placeholder="(000) 000-0000">
+
+					</div>
 
 				</div>
 
-				<div id="map">
-			        
-			        <script async defer src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyDtgOQkLTsySgw6m5_oZRq9QTBE-whogWI&callback=initMap"></script>
-			     
+				<div class="contact-info col-lg-4">
+
+					<div class="phone">
+
+						<ul>
+							<li>
+								<img src="images/phone_image.png">
+							</li>
+
+							<li>
+								<h4>910-332-5901</h4>
+							</li>
+
+						</ul>
+
+					</div>
+
+					<div id="map">
+				        
+				        <script async defer src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyDtgOQkLTsySgw6m5_oZRq9QTBE-whogWI&callback=initMap"></script>
+				     
+					</div>
+
 				</div>
 
 			</div>

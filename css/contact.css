@@ -1,0 +1,24 @@
+.info {
+	margin-top: 2rem;
+}
+
+.phone {
+	list-style: none;
+	margin-bottom: 2rem;
+}
+
+.phone img {
+	height: 40px;
+}
+
+.phone li {
+	display: inline-block;
+}
+
+#map {
+	height: 350px;
+}
+
+/*.contact-form {
+	display: 
+}*/

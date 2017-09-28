@@ -28,15 +28,3 @@ strong:hover {
 	height: 350px;
 	width: 518px;
 }
-
-.phone img {
-	height: 40px;
-}
-
-.phone {
-	list-style: none;
-}
-
-.phone li {
-	display: inline-block;
-}
