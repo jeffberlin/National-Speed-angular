@@ -3,6 +3,7 @@
 .about, .dyno-info, .events, .contact {
 	text-align: center;
 	letter-spacing: .75px;
+	padding-bottom: 2rem;
 }
 
 .about h1, .dyno-info h1, .events h1, .contact h1 {
@@ -27,4 +28,18 @@ strong:hover {
 .flex-item {
 	height: 350px;
 	width: 518px;
+}
+
+.dyno-info {
+	background-color: #d7d7d7;
+}
+
+.points {
+	background-color: #ee1b24;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+.points h1 {
+	padding: 4rem;
 }
