@@ -2,13 +2,18 @@
 	margin-top: 2rem;
 }
 
-.phone {
+.form-group input {
+	width: 30rem;
+}
+
+.phone, .hours ul {
 	list-style: none;
 	margin-bottom: 2rem;
 }
 
 .phone img {
 	height: 40px;
+	margin-right: .5rem;
 }
 
 .phone li {
